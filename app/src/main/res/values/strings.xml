@@ -28,4 +28,9 @@
     <string name="button_start">GET ME IN!</string>
     <string name="series">SERIES</string>
     <string name="peliculas">PELICULAS</string>
+    <string name="resumenReserva">Resumen de reserva</string>
+    <string name="asiento">N° asiento:</string>
+    <string name="nombre">Nombre:</string>
+    <string name="pelicula">Pelicula:</string>
+    <string name="tipoPago">Tipo de pago:</string>
 </resources>

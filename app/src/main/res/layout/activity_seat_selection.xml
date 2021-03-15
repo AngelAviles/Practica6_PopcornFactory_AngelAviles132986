@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/seat_selection"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".SeatSelection">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/titleSeats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="@string/series"
+            android:textColor="@color/amarillo"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="left"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_weight="1"
+            android:background="@color/amarillo"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+    
+    <RadioGroup
+        android:id="@+id/row1"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10dp">
+
+        <RadioButton
+
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="2"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="3"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="4"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/row2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10dp">
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="6"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="7"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="8"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="9"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="10"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/row3"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10dp">
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="11"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="12"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="13"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="14"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="15"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/row4"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10dp">
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="16"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="17"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="18"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="19"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:text="20"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:layout_marginHorizontal="3dp"
+            android:button="@android:color/transparent"
+            android:background="@drawable/radio_selectable"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:background="@color/gris"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="50dp"
+        android:text="Screen"
+        android:textSize="23sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingHorizontal="10dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/radio_normal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Available"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/gris" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/radio_disabled" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not\nAvailable"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/gris" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/radio_selected" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your\nselection"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/gris" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:textColor="@color/black"
+        android:text="Confirm"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingHorizontal="70dp" />
+
+</LinearLayout>

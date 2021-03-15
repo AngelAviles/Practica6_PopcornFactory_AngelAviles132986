@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detalle_pelicula"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -28,7 +29,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="10dp"
-                android:text="BONES"
                 android:textSize="25sp"
                 android:textColor="@color/amarillo" />
 
@@ -52,11 +52,32 @@
                 android:id="@+id/iv_pelicula_desc"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="algo"
                 android:textSize="14sp"
                 android:justificationMode="inter_word"
                 android:textColor="@color/gris"
                 />
 
         </ScrollView>
+
+    <Button
+        android:id="@+id/buyTickets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Buy me ticket!"
+        android:paddingHorizontal="25dp"
+        android:textColor="@color/black"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/seatsLeft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:textColor="@color/gris"
+        android:textStyle="italic"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="30dp"/>
 </LinearLayout>
